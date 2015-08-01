@@ -3,7 +3,8 @@ body {
 }
 
 .main {
-  width: 750px;
+  width: relative;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,4 +20,12 @@ a {
 
 .group4 {
   color: red;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.group3{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.pewpew{
+  color:red;
 }
