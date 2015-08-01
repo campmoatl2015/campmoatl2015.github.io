@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Group 1</title>
+  <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
 </head>
 <body>
   <a href="imra/fluffyducky.html">Imra</a>
@@ -12,5 +14,29 @@
   <a href="sophie/Ismiley.html">Sophie</a>
   <a href="junaid/RabbitSquad.html">Junaid</a>
   <a href="saman/magicjuicepizza.html">Saman</a>
+
+  <div id="count">
+    <h1 id="countVal"></h1>
+  </div>
+  <button id="button" onclick="go()">MAKE IT GO PEW!</button>
+
+  <script language="javascript" type="text/javascript">
+  var fb = new Firebase("https://tapcount.firebaseio.com");
+  var audio = new Audio('../pew.mp3');
+  var countNum = 0;
+
+  fb.child("count").on("value", function(snapshot) {
+    console.log(snapshot.val());
+    count = snapshot.val();
+    $("#countVal").text(snapshot.val());
+    audio.play();
+  });
+
+  function go() {
+    console.log("go");
+    var submit = parseInt(count) + 1;
+    fb.update({count: submit});
+  }
+  </script>
 </body>
 </html>
