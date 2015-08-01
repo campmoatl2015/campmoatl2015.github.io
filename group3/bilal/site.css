@@ -1,0 +1,23 @@
+h1 {
+  color:#7BC4E7;
+}
+
+body {
+  background-color: teal;
+}
+
+img {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+
+p {
+  display: inline-block; font-size: 200%;
+}
+
+ul {
+  list-style-type: none;
+}
+li {font-size: 200%;
+}

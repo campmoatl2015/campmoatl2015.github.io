@@ -1,0 +1,13 @@
+body {
+  background-color: magenta;
+}
+h1 {
+  color: gold;
+  font-size: 333%;
+  text-align: center;
+  font-family: cursive;
+}
+p {
+  color: #262352
+  font-size: 165%;
+}

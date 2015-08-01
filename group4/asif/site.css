@@ -1,0 +1,18 @@
+.story1>h1 {
+  color: #ba6552;
+  text-align: center;
+
+}
+
+.story2>h1 {
+  color: green;
+  text-align: center;
+  
+}
+.story2>h3 { color:blue;}
+
+body {
+  background-color: #7bc4e7
+
+
+}

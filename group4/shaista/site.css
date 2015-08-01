@@ -1,0 +1,29 @@
+body{
+background-color: black;
+}
+h1{
+  color: gray;
+}
+h3{
+  color: green;
+}
+h4{
+  color: #7BC4E7;
+}
+li{
+  color:orange;
+}
+h5{
+  color: #FF9067;
+  font-size: 400%;
+}
+h2{
+  color: #FF9067;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p{
+  color: #FF9067;
+  font-size: 150%;
+}

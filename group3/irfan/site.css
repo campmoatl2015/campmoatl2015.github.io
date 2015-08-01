@@ -1,0 +1,23 @@
+body {
+  background-color: #258ABC
+}
+h1 {text-align: center;
+  font-style: bold;
+  font-size: 220%;
+  text-decoration: underline;
+}
+h2{color:#FF8F4E;
+  text-align: center;
+  font-style: bold;
+  list-style-type: none;
+}
+h3{
+  text-align: center;
+  font-size: 150%;
+  color:#E6E0DC;
+  text-decoration: underline;
+}
+
+.image {
+  text-align: center;
+}

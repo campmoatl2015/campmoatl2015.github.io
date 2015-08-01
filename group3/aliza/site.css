@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+font-size: 250%;
+text-align: center;}
+
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 300%;
+font-style: bold;
+text-decoration: underline;
+}
+
+body {
+  background-color: black;
+  color: purple;
+  font-size: 150%;
+}
+
+.list1 {
+  color: blue;
+}
+
+.list2 {
+  font-size:
+  color: green;
+}
+
+.list3 {
+  font-size:
+  color: red;
+}

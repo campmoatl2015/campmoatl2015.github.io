@@ -1,0 +1,21 @@
+h1{
+  color:red;
+  background-color:blue;
+  text-decoration:underline;
+  font-size: 400%;
+}
+body{
+  background-color: black;
+}
+
+.image {
+  text-align:center;
+}
+li{
+  font-size:190%;
+  color:hotpink;
+}
+h2{
+  font-size:150%;
+  color:green;
+}

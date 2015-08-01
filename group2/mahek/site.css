@@ -1,0 +1,23 @@
+body {
+  background-color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 300%
+}
+
+h2 {
+  text-decoration: underline;
+  color: gold;
+}
+
+img {
+  box-shadow: 10px 10px 10px black;
+}
+
+ol {
+  color: white;
+  font-size: 200%;
+}

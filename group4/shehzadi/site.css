@@ -1,0 +1,28 @@
+body{
+  background-color: turquoise;
+  font-size:250%;
+  border-style:  ridge;
+  border-width: 30px;
+  border-color: orange;
+}
+
+.image {
+  text-align: center;
+}
+h1{
+  font-size: 400%;
+  color: gold;
+  text-align: center;
+}
+
+img {
+  box-shadow: 10px 10px 20px #F9955D;
+}
+h4{
+  color:red;
+  text-align: center;
+font-size: 200%;
+}
+p{
+  text-align: center;
+}

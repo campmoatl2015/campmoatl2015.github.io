@@ -1,0 +1,22 @@
+p{
+  font-size: 150%;
+  color:purple;
+}
+
+h1{
+  font-size: 300%;
+  color:#25BABC;
+  font-family:monospace;
+}
+
+h2{
+  font-size:350%;
+  text-align: center;
+  color:#25BABC;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+body{
+  background-color: black;
+}

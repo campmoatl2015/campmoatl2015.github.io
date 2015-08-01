@@ -1,0 +1,16 @@
+body{
+  background-color: #00FFFF;
+  text-align:center;
+}
+h1{
+  font-size: 300%;
+  color:pink;
+}
+h3{
+  font-style: oblique;
+  color: black;
+}
+img {
+  width: 250px;
+  height: 375px;
+}

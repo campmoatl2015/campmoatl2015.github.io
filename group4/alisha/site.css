@@ -1,0 +1,19 @@
+h1{
+  color:gold;
+  text-align:center;
+  font-size:400%;
+  background-color:black;
+  font-style:oblique;
+}
+
+h2{
+  color: gold;
+}
+
+.image {
+  text-align: center;
+}
+
+li {
+  font-size: 25pt;
+}

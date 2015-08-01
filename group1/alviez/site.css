@@ -1,0 +1,16 @@
+h1{
+  color: red;
+  font-size: 120;
+}
+h2{
+  color: green;
+  font-size: 90;
+}
+body{
+  background: aqua;
+  text-align: center;
+}
+ul{
+  font-size: 60;
+  color: blue;
+}
